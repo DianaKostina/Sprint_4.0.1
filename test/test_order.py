@@ -1,5 +1,5 @@
 from selenium.webdriver.common.keys import Keys
-from locators import MainPage, Order
+from locators.locator import MainPage, Order
 from helper import wait_element, click_element
 
 

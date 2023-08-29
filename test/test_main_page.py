@@ -1,7 +1,7 @@
 import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from locators import MainPage
+from locators.locator import MainPage
 from helper import wait_element, click_element
 questions = [
     [*MainPage.SCOOTER_PRICE, *MainPage.ASSERT_SCOOTER_PRICE, 'Вывод цен'],

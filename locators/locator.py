@@ -1,6 +1,4 @@
 from selenium.webdriver.common.by import By
-
-
 class MainPage:
     #1
     SCOOTER_PRICE = (By.XPATH, "//div[@id='accordion__heading-0']")
@@ -56,7 +54,6 @@ class Order:
     BLACK_STONE = (By.XPATH, "//label[contains(text(),'чёрный жемчуг')]")
     GREY = (By.XPATH, "//label[contains(text(),'серая безысходность')]")
     COMING_TO_YOU = (By.XPATH, "//div[contains(text(),'едет к вам')]")
-    #ORDER_DOWN = (By.XPATH, "//*[contains(@class, 'FinishButton')]//button[contains(text(), 'Заказать')]")
-    #ORDER_HIGH = (By.XPATH, "//*[contains(@class, 'Header_Nav')]//button[contains(text(), 'Заказать')]")
-    #LOGO_SCOOTER = (By.XPATH, "//img[@src='/assets/scooter.svg']")
-
+    ORDER_DOWN = (By.XPATH, "//*[contains(@class, 'FinishButton')]//button[contains(text(), 'Заказать')]")
+    ORDER_HIGH = (By.XPATH, "//*[contains(@class, 'Header_Nav')]//button[contains(text(), 'Заказать')]")
+    LOGO_SCOOTER = (By.XPATH, "//img[@src='/assets/scooter.svg']")
